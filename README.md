@@ -53,11 +53,6 @@ FROM OrderLineItems
 GROUP BY CategoryName
 ORDER BY TotalSales DESC;
 ``` 
-##  📈 Example Output
-CategoryName	TotalSales	AvgOrderValue	AvgTimeToShip	Top5Ratio	AvgOrderFrequency
-Beverages	125000.50	520.80	4.30	0.7120	2.45
-Condiments	98000.20	495.10	3.95	0.6550	1.98
-Seafood	76000.75	480.30	5.10	0.6780	2.10
 
 ##  ✅ Result
 
